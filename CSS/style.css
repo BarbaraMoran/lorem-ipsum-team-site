@@ -1,3 +1,50 @@
+h2 {
+  background-color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #099d8d;
+  align-items: center;
+}
+
+h3 {
+  background-color: #f1f1f1;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #099d8d;
+  align-items: center;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  flex-direction: row;
+}
+
+.title {
+  max-width: 200px;
+  border: solid 2px black;
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 100%;
+  border: solid 2px black;
+  box-sizing: border-box;
+}
+.box2 {
+  width: 50%;
+  border: solid 2px black;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #f1f1f1;
+  flex-flow: row wrap;
+}
 /*Medidas de la página*/
 .body {
   width: 320px;
