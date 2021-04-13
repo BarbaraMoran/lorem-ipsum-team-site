@@ -5,8 +5,7 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   color: #54585a;
-  width: 320px;
-  max-width: 768px;
+  min-width: 320px;
 
   /*--colorLetra: #54585a;
   --fontFamily: OpenSans;
@@ -14,13 +13,20 @@ body {
   --backgroundColor: #ffffff;*/
 }
 
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 /*Header*/
 .header {
   color: #ffffff;
   font-family: "Rubik", sans-serif;
   position: fixed;
-  width: 320px;
-  max-width: 768px;
+  width: 100%;
 }
 
 /*Header - Contenedor del nombre del equipo*/
@@ -53,14 +59,13 @@ body {
 }
 
 .slogan {
-  width: 320px;
-  max-width: 768px;
+  width: 100%;
   display: block;
 }
 
 .imgslogan {
   height: 421px;
-  width: 320px;
+  width: 100%;
   z-index: -1;
 }
 
@@ -98,7 +103,6 @@ body {
   font-family: Rubik;
   font-size: 24px;
   color: #14d9c4;
-  height: ;
 }
 
 .container {
@@ -175,6 +179,13 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
