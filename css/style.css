@@ -87,30 +87,48 @@ body {
   transform: translate(-100%, -100%);*/
 }
 
-h2 {
-  background-color: white;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  color: #099d8d;
+/*EQUIPO*/
+#equipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.title2 {
+  font-family: Rubik;
+  font-size: 24px;
+  color: #14d9c4;
+  height: ;
 }
 
-h3 {
-  background-color: #f1f1f1;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  color: #099d8d;
-  align-items: center;
+.container {
+  background-color: #b8b8b9;
 }
+
+.strengths {
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
+  text-align: center;
+}
+
+.box1 {
+  width: 100%;
+  box-sizing: border-box;
+}
+/*.box2 {
+  width: 50%;
+  border: solid 2px black;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #f1f1f1;
+  flex-flow: row wrap;
+}*/
 
 p {
   color: black;
   font-size: 15px;
   font-family: "Times New Roman", Times, serif;
-}
-
-.container {
-  flex-direction: row;
 }
 
 .title {
@@ -121,27 +139,6 @@ p {
   justify-content: space-between;
 }
 
-.box1 {
-  width: 100%;
-  border: solid 2px black;
-  box-sizing: border-box;
-}
-.box2 {
-  width: 50%;
-  border: solid 2px black;
-  box-sizing: border-box;
-  display: flex;
-  background-color: #f1f1f1;
-  flex-flow: row wrap;
-}
-
-.title2 {
-  /*'Equipo' y 'Quienes somos' son iguales*/
-  font-family: Rubik;
-  font-size: 24px;
-  color: #099d8d;
-}
-
 .image {
   width: 180px;
   height: 180px;
@@ -149,9 +146,10 @@ p {
   border: solid 5px rgba(0, 0, 0, 0.08);
 }
 
-.title3 {
-  font-family: OpenSans;
+.title4 {
+  font-family: "OpenSans";
   font-size: 20px;
+  color: #000000;
 }
 
 .presentation {
