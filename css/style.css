@@ -135,12 +135,23 @@ p {
   font-family: "Times New Roman", Times, serif;
 }
 
+/*
 .title {
   max-width: 200px;
   border: solid 2px black;
   box-sizing: border-box;
   margin: auto;
   justify-content: space-between;
+}
+*/
+
+/*QUIENES SOMOS*/
+
+.title3 {
+  font-family: "Rubik";
+  size: 24px;
+  color: #099d8d;
+  text-transform: uppercase;
 }
 
 .image {
