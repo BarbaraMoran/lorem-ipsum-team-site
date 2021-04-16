@@ -1,40 +1,95 @@
-<main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <include
-        src="./link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-    </li>
-    <li>
-      <include src="./link.html" text="Más info del starter kit" url="./more-info.html"></include>
-    </li>
-  </ul>
+<main class="main">
+  <section class="slogan">
+    <img src="../assets/images/road.webp" alt="" class="imgslogan" />
+    <span>
+      <h2 class="boxslogan">lema: Pon 'style' a tu 'body'</h2>
+    </span>
+  </section>
+
+  <section id="equipo">
+    <h2 class="title2"><strong>EQUIPO</strong></h2>
+    <p class="box1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptates
+      inventore tenetur accusamus illum vero deserunt veritatis at facere, quas
+      aspernatur, iusto quasi blanditiis placeat, aperiam quisquam alias
+      assumenda? Praesentium.
+    </p>
+
+    <aside class="container">
+      <div class="containerbox1">
+        <h3 class="strengths">Fortalezas</h3>
+        <p class="box1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          aperiam deleniti consectetur nesciunt nisi dolorum laborum similique
+          iusto neque reprehenderit eaque mollitia at provident doloremque, aut
+          obcaecati ex! Modi, laborum!
+        </p>
+      </div>
+      <div class="containerbox2">
+        <h3 class="strengths">Debilidades</h3>
+        <p class="box2">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+          architecto ad dignissimos rerum fugiat quis facere doloremque
+          recusandae. Nihil, labore? Fugiat ullam aliquam quis ad vitae rerum
+          necessitatibus tenetur iste.
+        </p>
+      </div>
+    </aside>
+  </section>
+
+  <section id="quienessomos" class="members">
+    <h2 class="title3">Quiénes somos</h2>
+    <include
+      src="./dev.html"
+      name="Ana Salamero"
+      image="ana.jpg"
+      twitter="anasalamero"
+      linkedin="anasalamero"
+      github="AnaSalamero"
+      email="asalamerosanz@gmail.com"
+      desc="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, alias ut!
+      Perferendis quasi ratione veritatis eveniet animi similique, dolor minus!
+      Illo libero commodi optio totam voluptate nam tenetur officia nesciunt."
+    ></include>
+
+    <include
+      src="./dev.html"
+      name="Bárbara Morán"
+      image="barbara.jpg"
+      twitter="barbsmoran"
+      linkedin="b%C3%A1rbara-m-728b72b0"
+      github="BarbaraMoran"
+      email="barbaramoranrr@gmail.com"
+      desc="Estudió Dirección Cinematográfica y ha trabajado principalmente en
+      el sector del marketing digital. Su último gran descubrimiento ha
+      sido la programación y actualmente estudia en Adalab con el objetivo
+      de convertirse en desarrolladora web."
+    ></include>
+
+    <include
+      src="./dev.html"
+      name="Cinthya Jo"
+      image="cinthya.jpg"
+      twitter="cinthya43963271"
+      linkedin="cinthyajovillalobos"
+      github="cinthyajo"
+      email="cinthya.jo@gmail.com"
+      desc="Abogada especializada en propiedad industrial y con un alto interés
+      en las nuevas tecnologías. Su curiosidad por la programación y su
+      relación con el e-commerce la motivó para estudiar una
+      especialización como desarrolladora web front end."
+    ></include>
+
+    <include
+      src="./dev.html"
+      name="María Serna"
+      image="Maria.jpg"
+      linkedin="maria-serna-zafra"
+      github="MariaSernaZ"
+      email="maria.serna.zafra@gmail.com"
+      desc="Graduada en Administración y Dirección de Empresas, apasionada de la
+      fotografía y los viajes. Descubrió la programación por casualidad,
+      atrapándole la creatividad y el mundo de posibilidades que plantea."
+    ></include>
+  </section>
 </main>
