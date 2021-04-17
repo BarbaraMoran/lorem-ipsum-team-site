@@ -197,14 +197,22 @@ a:link {
 /*QUIENES SOMOS*/
 
 .members {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 0px 15px 0px 15px;
 }
 
 .title3 {
   font-family: "Rubik", sans-serif;
+  font-weight: 500;
   size: 24px;
   color: #099d8d;
   text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .image {
@@ -217,23 +225,24 @@ a:link {
 .title4 {
   font-size: 20px;
   color: #000000;
+  padding-top: 15px;
+  line-height: 45px;
 }
 
 .presentation {
   text-align: center;
+  color: #54585a;
+  line-height: 24px;
+}
+
+.social {
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 
 .color {
   /*color de los iconos*/
   color: #099d8d;
-}
-
-.members {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .dev {
@@ -243,6 +252,8 @@ a:link {
   justify-content: center;
   align-items: center;
 }
+
+/*FOOTER*/
 
 .footer {
   display: flex;
