@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +26,7 @@ a:link {
   font-family: "Rubik", sans-serif;
   position: fixed;
   width: 100vw;
+  z-index: 20;
 }
 
 /*Header - Contenedor del nombre del equipo*/
@@ -52,7 +58,6 @@ a:link {
 .navlist {
   width: 100%;
   list-style: none;
-  padding: 0px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,20 +71,20 @@ a:link {
   padding: 10px 10px;
 }
 
+/*coger foto adecuada para movil, tablet, etc*/
 .imgslogan {
   width: 100%;
 }
 
 .boxslogancontainer {
+  text-decoration: none;
   background-color: white;
   width: fit-content;
-  padding: 14px 15px 16px 15px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 15px 15px;
+  margin: auto;
   font-weight: 600;
   font-size: 18px;
+  transform: translate(0, -50%);
 }
 
 /*
