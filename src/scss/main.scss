@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: "opensans";
+  font-family: "Open Sans", sans-serif;
   background-color: #ffffff;
   font-size: 16px;
 
@@ -50,9 +50,9 @@ a:link {
 }
 
 .navlist {
-  padding-left: 0;
   width: 100%;
   list-style: none;
+  padding: 0px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -62,6 +62,8 @@ a:link {
 .navmenulink {
   color: #ffffff;
   text-transform: uppercase;
+  height: 100%;
+  padding: 10px 10px;
 }
 
 .imgslogan {
@@ -108,7 +110,7 @@ a:link {
 }
 
 .title2 {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   color: #14d9c4;
   text-align: center;
@@ -129,8 +131,6 @@ a:link {
 
 .box1 {
   color: #54585a;
-  font-size: 16px;
-  font-family: "OpenSans";
   text-align: center;
 }
 
@@ -156,7 +156,7 @@ a:link {
 /*QUIENES SOMOS*/
 
 .title3 {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   size: 24px;
   color: #099d8d;
   text-transform: uppercase;
@@ -170,14 +170,11 @@ a:link {
 }
 
 .title4 {
-  font-family: "OpenSans";
   font-size: 20px;
   color: #000000;
 }
 
 .presentation {
-  font-family: OpenSans;
-  font-size: 16px;
   text-align: center;
 }
 
