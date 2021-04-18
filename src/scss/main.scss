@@ -248,7 +248,6 @@ a:link {
 .dev {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -291,4 +290,47 @@ a:link {
 }
 
 @media all and (min-width: 1200px) {
+  .equipobox {
+    padding: 0 138px 0 138px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 138px 0 138px;
+    justify-content: space-between;
+    height: 309px;
+  }
+
+  .box1 {
+    height: 144px;
+    width: 439px;
+    margin: auto;
+  }
+
+  .members {
+    padding: 0 138px 0 138px;
+  }
+
+  .dev {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerdev {
+    text-align: left;
+    width: fit-content;
+  }
+
+  #dev2 .containerdev {
+    width: fit-content;
+    text-align: right;
+  }
+
+  #dev2 {
+    flex-direction: row-reverse;
+  }
+
+  #dev2 .presentation {
+    text-align: right;
+  }
 }
