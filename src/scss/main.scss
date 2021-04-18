@@ -84,6 +84,7 @@ a:link {
 
 .imgslogan {
   width: 100%;
+  height: 421px;
 }
 
 .boxslogancontainer {
@@ -202,7 +203,7 @@ a:link {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 15px 0px 15px;
+  padding: 30px 15px 0px 15px;
 }
 
 .title3 {
@@ -211,7 +212,6 @@ a:link {
   size: 24px;
   color: #099d8d;
   text-transform: uppercase;
-  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -227,6 +227,7 @@ a:link {
   color: #000000;
   padding-top: 15px;
   line-height: 45px;
+  text-align: center;
 }
 
 .presentation {
@@ -238,6 +239,7 @@ a:link {
 .social {
   padding-top: 15px;
   padding-bottom: 45px;
+  text-align: center;
 }
 
 .color {
@@ -248,7 +250,6 @@ a:link {
 .dev {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -291,4 +292,65 @@ a:link {
 }
 
 @media all and (min-width: 768px) {
+@media all and (min-width: 1200px) {
+  .equipobox {
+    padding: 0 138px 0 138px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 138px 0 138px;
+    justify-content: space-between;
+    height: 309px;
+  }
+
+  .box1 {
+    height: 144px;
+    width: 439px;
+    margin: auto;
+  }
+
+  .members {
+    padding: 45px 138px 60px 138px;
+  }
+
+  .title3 {
+    padding-top: 0;
+    padding-bottom: 41px;
+  }
+
+  .dev {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerdev {
+    text-align: left;
+    width: fit-content;
+    padding-left: 45px;
+  }
+
+  #dev2 .containerdev {
+    width: fit-content;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 45px;
+  }
+
+  #dev2 {
+    flex-direction: row-reverse;
+  }
+
+  .image {
+    width: 278px;
+    height: 278px;
+  }
+
+  .presentation {
+    text-align: left;
+  }
+
+  #dev2 .presentation {
+    text-align: right;
+  }
 }
