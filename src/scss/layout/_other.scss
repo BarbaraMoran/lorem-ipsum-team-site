@@ -74,6 +74,16 @@ h2::before {
   width: 100vw;
   background-color: rgba(184, 184, 185, 0.2);
   padding: 0px 15px 0px 15px;
+  position: relative;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  background-color: red;
+  transform: translate(-50%);
 }
 
 .title_dafo {
