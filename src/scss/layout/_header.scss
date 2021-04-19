@@ -50,3 +50,33 @@
   font-size: 15px;
   font-weight: 500;
 }
+
+@media (min-width: 1200px) {
+  .header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+    .teamname {
+      width: 50vw;
+      line-height: 30px;
+      justify-content: flex-start;
+      padding-left: 142px;
+    }
+    .navmenu {
+      background-color: #099d8d;
+      height: 60px;
+      opacity: 95%;
+      width: 50%;
+
+      .navlist {
+        justify-content: flex-end;
+        padding-right: 138px;
+
+        .navmenulink {
+          padding: 10px 0px 10px 18px;
+        }
+      }
+    }
+  }
+}
