@@ -26,6 +26,16 @@
 }
 
 /*EQUIPO*/
+
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -105px;
+  height: 105px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 /*PARTE 1*/
 .equipo {
   display: flex;
