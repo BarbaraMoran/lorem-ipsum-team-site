@@ -34,3 +34,29 @@
   width: 115.9px;
   padding-bottom: 45px;
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 170px;
+  }
+
+  .small {
+    padding-bottom: 120px;
+    text-align: left;
+  }
+
+  .navfooter {
+    text-align: right;
+  }
+
+  .footerlink {
+    line-height: 30px;
+  }
+
+  .imgfooter {
+    padding-top: 65px;
+    padding-bottom: 60px;
+  }
+}

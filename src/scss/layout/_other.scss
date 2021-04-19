@@ -159,26 +159,25 @@
   align-items: center;
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .equipobox {
-    padding: 0 138px 0 138px;
+    padding: 0 45px 0 45px;
   }
 
   .container {
     display: flex;
-    padding: 0 138px 0 138px;
+    padding: 0 45px 0 45px;
     justify-content: space-between;
-    height: 309px;
+    height: 333px;
   }
 
   .box1 {
-    height: 144px;
-    width: 439px;
-    margin: auto;
+    height: 168px;
+    padding-bottom: 30px;
   }
 
   .members {
-    padding: 45px 138px 60px 138px;
+    padding: 45px 44px 60px 44px;
   }
 
   .title3 {
@@ -192,9 +191,11 @@
   }
 
   .containerdev {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
     width: fit-content;
-    padding-left: 45px;
+    padding-left: 44px;
   }
 
   #dev2 .containerdev {
@@ -209,8 +210,8 @@
   }
 
   .image {
-    width: 278px;
-    height: 278px;
+    width: 205px;
+    height: 205px;
   }
 
   .presentation {
