@@ -187,64 +187,81 @@ h2::before {
 }
 
 @media all and (min-width: 1200px) {
-  .equipobox {
-    padding: 0 138px 0 138px;
-  }
+  @media all and (min-width: 768px) {
+    .boxslogancontainer {
+      background-color: rgba(255, 255, 255, 0.8);
+      width: fit-content;
+      margin-left: 46px;
+      padding: 15px 30px;
+      transform: translate(0, -100%);
+    }
 
-  .container {
-    display: flex;
-    padding: 0 138px 0 138px;
-    justify-content: space-between;
-    height: 309px;
-  }
+    .boxslogan {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+    }
 
-  .box1 {
-    height: 144px;
-    width: 439px;
-    margin: auto;
-  }
+    .equipobox {
+      padding: 0 45px 0 45px;
+    }
 
-  .members {
-    padding: 45px 138px 60px 138px;
-  }
+    .container {
+      display: flex;
+      padding: 0 45px 0 45px;
+      justify-content: space-between;
+      height: 333px;
+    }
 
-  .title3 {
-    padding-top: 0;
-    padding-bottom: 41px;
-  }
+    .box1 {
+      height: 168px;
+      padding-bottom: 30px;
+    }
 
-  .dev {
-    display: flex;
-    flex-direction: row;
-  }
+    .members {
+      padding: 45px 44px 60px 44px;
+    }
 
-  .containerdev {
-    text-align: left;
-    width: fit-content;
-    padding-left: 45px;
-  }
+    .title3 {
+      padding-top: 0;
+      padding-bottom: 41px;
+    }
 
-  #dev2 .containerdev {
-    width: fit-content;
-    text-align: right;
-    padding-left: 0px;
-    padding-right: 45px;
-  }
+    .dev {
+      display: flex;
+      flex-direction: row;
+    }
 
-  #dev2 {
-    flex-direction: row-reverse;
-  }
+    .containerdev {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      width: fit-content;
+      padding-left: 44px;
+      text-align: left;
+    }
 
-  .image {
-    width: 278px;
-    height: 278px;
-  }
+    #dev2 .containerdev {
+      width: fit-content;
+      text-align: right;
+      padding-left: 0px;
+    }
 
-  .presentation {
-    text-align: left;
-  }
+    #dev2 {
+      flex-direction: row-reverse;
+    }
 
-  #dev2 .presentation {
-    text-align: right;
+    .image {
+      width: 205px;
+      height: 205px;
+    }
+
+    .presentation {
+      text-align: left;
+    }
+
+    #dev2 .presentation {
+      text-align: right;
+    }
   }
 }

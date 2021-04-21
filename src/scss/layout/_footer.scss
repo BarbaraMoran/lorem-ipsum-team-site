@@ -34,3 +34,38 @@
   width: 115.9px;
   padding-bottom: 45px;
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 170px;
+    position: relative;
+    padding: 0px;
+  }
+
+  .small {
+    order: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 45px;
+  }
+
+  .navfooter {
+    text-align: right;
+    padding-left: 45px;
+  }
+
+  .footerlink {
+    line-height: 30px;
+  }
+
+  .imgfooter {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 45px;
+  }
+}
