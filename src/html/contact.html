@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -22,66 +22,115 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
 
     <title>Contact</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <div class="teamname">
+        <h1 class="teamname text">lorem ipsum</h1>
+      </div>
 
-    <include src="./partials/header.html"></include>
+      <nav class="navmenu">
+        <ul class="navlist">
+          <li>
+            <a class="navmenulink" href="./index.html#gotoequipo">equipo</a>
+          </li>
+          <li>
+            <a class="navmenulink" href="./index.html#gotoquienessomos"
+              >quiénes somos</a
+            >
+          </li>
+          <li><a class="navmenulink" href="./contact.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-    <h1 class="title">CONTACTO</h1>
-    <section class="container">
-      <p class="reachout">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum
-        animi ea nam recusandae corporis labore consequuntur dolorem quo
-        distinctio cumque aliquid fugit qui voluptate reiciendis sint,
-        accusantium hic! Praesentium?
-      </p>
-      <small class="field"
-        >Todos los campos marcados con <span>*</span> son obligatorios.</small
-      >
-    </section>
-    <form action="/signup" method="post">
-      <label for="firstName">Nombre completo <span>*</span> </label>
-      <input
-        class="contact"
-        placeholder="Nombre..."
-        id="firstName"
-        type="text"
-        name="firstName"
-        required
-      />
-      <label for="emailAddress">Email <span>*</span> </label>
-      <input
-        class="contact"
-        placeholder="email@mail.com"
-        id="emailAddress"
-        type="text"
-        name="emailAddress"
-        required
-      />
-      <label for="telephone">Teléfono</label>
-      <input
-        class="contact"
-        placeholder="Ej: 123456789"
-        id="telephone"
-        type="tel"
-        name="telephone"
-      />
-      <label for="message">Mensaje <span>*</span> </label>
-      <textarea
-        class="contact"
-        id="message"
-        placeholder="¿Qué necesitas?"
-        name="message"
-        rows="8"
-        cols="80"
-      ></textarea>
-      <input class="submit" type="submit" value="Enviar" />
-    </form>
+      <section>
+        <img
+          src="../assets/images/contact.jpg"
+          alt="imagen de contacto"
+          class="imgcontact"
+        />
+      </section>
+
+      <h1 class="title">contacto</h1>
+      <section class="container">
+        <p class="reachout">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum
+          animi ea nam recusandae corporis labore.
+        </p>
+        <small class="field"
+          >Todos los campos marcados con <span>*</span> son obligatorios.</small
+        >
+      </section>
+
+      <form action="/signup" method="post" class="contact-form">
+        <label class="contact-label" for="firstName"
+          >Nombre completo <span>*</span>
+        </label>
+        <input
+          class="contact"
+          placeholder="Nombre..."
+          id="firstName"
+          type="text"
+          name="firstName"
+          required
+        />
+        <label class="contact-label" for="emailAddress"
+          >Email <span>*</span>
+        </label>
+        <input
+          class="contact"
+          placeholder="email@mail.com"
+          id="emailAddress"
+          type="text"
+          name="emailAddress"
+          required
+        />
+        <label class="contact-label" for="telephone">Teléfono</label>
+        <input
+          class="contact"
+          placeholder="Ej: 123456789"
+          id="telephone"
+          type="tel"
+          name="telephone"
+        />
+        <label class="contact-label" for="message"
+          >Mensaje <span>*</span>
+        </label>
+        <textarea
+          class="contact contact-area"
+          id="message"
+          placeholder="¿Qué necesitas?"
+          name="message"
+          rows="8"
+          cols="10"
+        ></textarea>
+        <input class="submit" type="submit" value="Enviar" />
+      </form>
     </main>
 
-    <include src="./partials/footer.html"></include>
-</body>
+    <footer class="footer">
+      <small class="small">Nombre del grupo &copy; 2021</small>
+      <nav>
+        <ul class="navfooter">
+          <li>
+            <a class="footerlink" href="./index.html#gotoequipo">equipo</a>
+          </li>
+          <li>
+            <a class="footerlink" href="./index.html#quienessomos"
+              >quiénes somos</a
+            >
+          </li>
+          <li><a class="footerlink" href="./contact.html">contacto</a></li>
+        </ul>
+      </nav>
+      <img
+        class="imgfooter"
+        src="./assets/images/logo-adalab.png"
+        alt="logo adalab"
+      />
+    </footer>
+  </body>
 </html>
-
