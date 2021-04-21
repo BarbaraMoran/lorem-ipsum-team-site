@@ -54,26 +54,32 @@
 @media all and (min-width: 768px) {
   .header {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    height: 60px;
   }
 
   .teamname {
-    height: 60px;
-    background-color: #14d9c4;
-    opacity: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 50%;
+    width: 50vw;
+    justify-content: flex-start;
+    line-height: 30px;
+    padding-left: 45px;
   }
 
   .navmenu {
     height: 60px;
     padding-right: 45px;
+    background-color: #099d8d;
+    opacity: 90%;
+    width: 50%;
   }
 
   .navlist {
-    width: 50%;
-    transform: translateX(50%);
+    justify-content: flex-end;
+    padding-right: 120px;
+  }
+
+  .navmenulink {
+    padding: 5px 5px 5px 5px;
+    margin: 0px 13px;
   }
 }
