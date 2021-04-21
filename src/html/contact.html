@@ -1,1 +1,87 @@
-contacto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3e51167a4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <include src="./partials/header.html"></include>
+
+    <main>
+    <h1 class="title">CONTACTO</h1>
+    <section class="container">
+      <p class="reachout">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum
+        animi ea nam recusandae corporis labore consequuntur dolorem quo
+        distinctio cumque aliquid fugit qui voluptate reiciendis sint,
+        accusantium hic! Praesentium?
+      </p>
+      <small class="field"
+        >Todos los campos marcados con <span>*</span> son obligatorios.</small
+      >
+    </section>
+    <form action="/signup" method="post">
+      <label for="firstName">Nombre completo <span>*</span> </label>
+      <input
+        class="contact"
+        placeholder="Nombre..."
+        id="firstName"
+        type="text"
+        name="firstName"
+        required
+      />
+      <label for="emailAddress">Email <span>*</span> </label>
+      <input
+        class="contact"
+        placeholder="email@mail.com"
+        id="emailAddress"
+        type="text"
+        name="emailAddress"
+        required
+      />
+      <label for="telephone">Teléfono</label>
+      <input
+        class="contact"
+        placeholder="Ej: 123456789"
+        id="telephone"
+        type="tel"
+        name="telephone"
+      />
+      <label for="message">Mensaje <span>*</span> </label>
+      <textarea
+        class="contact"
+        id="message"
+        placeholder="¿Qué necesitas?"
+        name="message"
+        rows="8"
+        cols="80"
+      ></textarea>
+      <input class="submit" type="submit" value="Enviar" />
+    </form>
+    </main>
+
+    <include src="./partials/footer.html"></include>
+</body>
+</html>
+
