@@ -2,67 +2,249 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3e51167a4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>EQUIPO 7</title>
   </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+  <body class="body">
+    <header class="header">
+      <div class="teamname">
+        <h1 class="teamname text">lorem ipsum</h1>
+      </div>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+      <nav class="navmenu">
+        <ul class="navlist">
+          <li><a class="navmenulink" href="#gotoequipo">equipo</a></li>
+          <li><a class="navmenulink" href="#gotoquienessomos">quiénes somos</a></li>
+          <li><a class="navmenulink" href="./contact.html">contacto</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="slogan">
+        <img
+          src="../assets/images/pic1.jpg"
+          alt="imagen de grupo"
+          class="imgslogan"
+        />
+        <div class="boxslogancontainer">
+          <h2 class="boxslogan">pon style { } a tu body >!</h2>
+        </div>
+      </section>
+
+      <section id="equipo" class="equipo">
+        <article class="equipobox">
+          <h2 id="gotoequipo" class="title2">equipo</h2>
+          <p class="box1 team1">
+            Somos un grupo de desarrolladoras front end procedentes de diferentes
+            ámbitos profesionales y apasionadas por el mundo de la programación.
+          </p>
+          <p class="box1 team1">
+            Nos conocimos estudiando en Adalab y actualmente trabajamos juntas en
+            proyectos de desarrollo web.
+          </p>
+          <p class="box1 team1">¡Contáctanos y daremos forma a tus ideas!</p>
+        </article>
+
+        <div class="square"></div>
+
+        <section class="container">
+          <article class="containerbox">
+            <h3 class="title_dafo">fortalezas</h3>
+            <ul class="box1">
+              <li class="strenghtsitem">Orientación al cliente.</li>
+              <li class="strenghtsitem">Transparencia y ética profesional.</li>
+              <li class="strenghtsitem">Aplicación de tecnologías innovadoras.</li>
+              <li class="strenghtsitem">Creatividad.</li>
+            </ul>
+          </article>
+          <article class="containerbox">
+            <h3 class="title_dafo">debilidades</h3>
+            <ul class="box1">
+              <li class="strenghtsitem">Equipo joven en constante aprendizaje.</li>
+              <li class="strenghtsitem">Desarrollo exclusivamente en front end. </li>
+              <li class="strenghtsitem">Background profesional no tecnológico.</li>
+              <li class="strenghtsitem">Pequeña cartera de proyectos realizados.</li>
+              </ul>
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section id="quienessomos" class="members">
+        <article>
+          <h2 id="gotoquienessomos" class="title3">Quiénes somos</h2>
+          <div class="dev" id="">
+            <img class="image" id="image_dev1" src="../assets/images/ana.jpg" />
+            <div class="containerdev ">
+              <h3 class="title4">Ana Salamero</h3>
+              <p class="presentation">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, alias ut!
+            Perferendis quasi ratione veritatis eveniet animi similique, dolor minus!
+            Illo libero commodi optio totam voluptate nam tenetur officia nesciunt.</p>
+              <div class="social">
+                <a
+                  href="https://twitter.com/anasalamero"
+                  target="_blank"
+                  title="Twitter de Ana Salamero"
+                  ><i class="fab fa-twitter color"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/anasalamero"
+                  target="_blank"
+                  title="LinkedIn de Ana Salamero"
+                  ><i class="fab fa-linkedin-in color"></i>
+                </a>
+                <a
+                  href="https://github.com/AnaSalamero"
+                  target="_blank"
+                  title="Github de Ana Salamero"
+                  ><i class="fab fa-github-alt color"></i>
+                </a>
+                <a href="mailto:asalamerosanz@gmail.com" target="_blank" title="Email de Ana Salamero"
+                  ><i class="fas fa-envelope color"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dev" id="dev2">
+            <img class="image" id="image_dev1" src="../assets/images/barbara.jpg" />
+            <div class="containerdev dev2">
+              <h3 class="title4">Bárbara Morán</h3>
+              <p class="presentation">Estudió Dirección Cinematográfica, ha realizado cortometrajes y videoclips y ha trabajado en
+            el sector del marketing digital. Su último gran descubrimiento ha
+            sido la programación y actualmente estudia en Adalab con el objetivo
+            de convertirse en desarrolladora web.</p>
+              <div class="social">
+                <a
+                  href="https://twitter.com/barbsmoran"
+                  target="_blank"
+                  title="Twitter de Bárbara Morán"
+                  ><i class="fab fa-twitter color"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/b%C3%A1rbara-m-728b72b0"
+                  target="_blank"
+                  title="LinkedIn de Bárbara Morán"
+                  ><i class="fab fa-linkedin-in color"></i>
+                </a>
+                <a
+                  href="https://github.com/BarbaraMoran"
+                  target="_blank"
+                  title="Github de Bárbara Morán"
+                  ><i class="fab fa-github-alt color"></i>
+                </a>
+                <a href="mailto:barbaramoranrr@gmail.com" target="_blank" title="Email de Bárbara Morán"
+                  ><i class="fas fa-envelope color"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dev" id="">
+            <img class="image" id="image_dev1" src="../assets/images/cinthya.jpg" />
+            <div class="containerdev ">
+              <h3 class="title4">Cinthya Jo</h3>
+              <p class="presentation">Abogada especializada en propiedad industrial y con un alto interés
+            en las nuevas tecnologías. Su curiosidad por la programación y su
+            relación con el e-commerce la motivó para estudiar una
+            especialización como desarrolladora web front end.</p>
+              <div class="social">
+                <a
+                  href="https://twitter.com/cinthya43963271"
+                  target="_blank"
+                  title="Twitter de Cinthya Jo"
+                  ><i class="fab fa-twitter color"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/cinthyajovillalobos"
+                  target="_blank"
+                  title="LinkedIn de Cinthya Jo"
+                  ><i class="fab fa-linkedin-in color"></i>
+                </a>
+                <a
+                  href="https://github.com/cinthyajo"
+                  target="_blank"
+                  title="Github de Cinthya Jo"
+                  ><i class="fab fa-github-alt color"></i>
+                </a>
+                <a href="mailto:cinthya.jo@gmail.com" target="_blank" title="Email de Cinthya Jo"
+                  ><i class="fas fa-envelope color"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dev" id="dev2">
+            <img class="image" id="image_dev1" src="../assets/images/Maria.jpg" />
+            <div class="containerdev dev2">
+              <h3 class="title4">María Serna</h3>
+              <p class="presentation">Graduada en Administración y Dirección de Empresas, apasionada de la
+            fotografía y los viajes. Descubrió la programación por casualidad,
+            atrapándole la creatividad y el mundo de posibilidades que plantea.</p>
+              <div class="social">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  title="Twitter de María Serna"
+                  ><i class="fab fa-twitter color"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/maria-serna-zafra"
+                  target="_blank"
+                  title="LinkedIn de María Serna"
+                  ><i class="fab fa-linkedin-in color"></i>
+                </a>
+                <a
+                  href="https://github.com/MariaSernaZ"
+                  target="_blank"
+                  title="Github de María Serna"
+                  ><i class="fab fa-github-alt color"></i>
+                </a>
+                <a href="mailto:maria.serna.zafra@gmail.com" target="_blank" title="Email de María Serna"
+                  ><i class="fas fa-envelope color"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small class="small">Nombre del grupo &copy; 2021</small>
+      <nav>
+        <ul class="navfooter">
+          <li><a class="footerlink" href="#equipo">equipo</a></li>
+          <li><a class="footerlink" href="#quienessomos">quiénes somos</a></li>
+          <li><a class="footerlink" href="./contact.html">contacto</a></li>
         </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </nav>
+      <img
+        class="imgfooter"
+        src="./assets/images/logo-adalab.png"
+        alt="logo adalab"
+      />
+    </footer>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>
