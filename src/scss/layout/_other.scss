@@ -169,6 +169,10 @@ h2::before {
   text-align: center;
 }
 
+.fab::after {
+  content: "·";
+}
+
 .color {
   /*color de los iconos*/
   color: #099d8d;
