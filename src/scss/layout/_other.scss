@@ -25,26 +25,6 @@
   font-size: 18px;
 }
 
-@media (min-width: 1200px) {
-  .slogan {
-    .imgslogan {
-      height: 550px;
-    }
-    .boxslogancontainer {
-      padding: 15px 30px;
-      width: fit-content;
-      margin-left: 168px;
-      transform: translate(0, -100%);
-      opacity: 80%;
-
-      .boxslogan {
-        font-size: 24px;
-        line-height: 30px;
-      }
-    }
-  }
-}
-
 /*EQUIPO*/
 
 h2::before {
@@ -206,82 +186,101 @@ h2::before {
   color: #54585a;
 }
 
-@media all and (min-width: 1200px) {
-  @media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
+  .boxslogancontainer {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: fit-content;
+    margin-left: 46px;
+    padding: 15px 30px;
+    transform: translate(0, -100%);
+  }
+
+  .boxslogan {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  /*EQUIPO*/
+  .equipobox {
+    padding: 0 45px 0 45px;
+  }
+
+  .container {
+    display: flex;
+    padding: 0 45px 0 45px;
+    justify-content: space-between;
+    height: 333px;
+  }
+
+  .box1 {
+    height: 168px;
+    padding-bottom: 30px;
+  }
+
+  .members {
+    padding: 45px 44px 60px 44px;
+  }
+
+  .title3 {
+    padding-top: 0;
+    padding-bottom: 41px;
+  }
+
+  .dev {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .containerdev {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: fit-content;
+    padding-left: 44px;
+    text-align: left;
+  }
+
+  #dev2 .containerdev {
+    width: fit-content;
+    text-align: right;
+    padding-left: 0px;
+  }
+
+  #dev2 {
+    flex-direction: row-reverse;
+  }
+
+  .image {
+    width: 205px;
+    height: 205px;
+  }
+
+  .presentation {
+    text-align: left;
+  }
+
+  #dev2 .presentation {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slogan {
+    .imgslogan {
+      height: 550px;
+    }
     .boxslogancontainer {
-      background-color: rgba(255, 255, 255, 0.8);
-      width: fit-content;
-      margin-left: 46px;
       padding: 15px 30px;
+      width: fit-content;
+      margin-left: 168px;
       transform: translate(0, -100%);
-    }
+      opacity: 80%;
 
-    .boxslogan {
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 25px;
-    }
-
-    .equipobox {
-      padding: 0 45px 0 45px;
-    }
-
-    .container {
-      display: flex;
-      padding: 0 45px 0 45px;
-      justify-content: space-between;
-      height: 333px;
-    }
-
-    .box1 {
-      height: 168px;
-      padding-bottom: 30px;
-    }
-
-    .members {
-      padding: 45px 44px 60px 44px;
-    }
-
-    .title3 {
-      padding-top: 0;
-      padding-bottom: 41px;
-    }
-
-    .dev {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .containerdev {
-      display: flex;
-      flex-direction: column;
-      justify-content: left;
-      width: fit-content;
-      padding-left: 44px;
-      text-align: left;
-    }
-
-    #dev2 .containerdev {
-      width: fit-content;
-      text-align: right;
-      padding-left: 0px;
-    }
-
-    #dev2 {
-      flex-direction: row-reverse;
-    }
-
-    .image {
-      width: 205px;
-      height: 205px;
-    }
-
-    .presentation {
-      text-align: left;
-    }
-
-    #dev2 .presentation {
-      text-align: right;
+      .boxslogan {
+        font-size: 24px;
+        line-height: 30px;
+      }
     }
   }
 }
