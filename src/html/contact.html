@@ -29,20 +29,26 @@
     <include src="./partials/header.html"></include>
 
     <main>
-    <h1 class="title">CONTACTO</h1>
+      <section>
+        <img
+          src="../assets/images/contact.jpg"
+          alt="imagen de contacto"
+          class="imgcontact"
+        />
+      </section>
+
+    <h1 class="title">contacto</h1>
     <section class="container">
       <p class="reachout">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum
-        animi ea nam recusandae corporis labore consequuntur dolorem quo
-        distinctio cumque aliquid fugit qui voluptate reiciendis sint,
-        accusantium hic! Praesentium?
+        animi ea nam recusandae corporis labore.
       </p>
       <small class="field"
-        >Todos los campos marcados con <span>*</span> son obligatorios.</small
-      >
+        >Todos los campos marcados con <span>*</span> son obligatorios.</small>
     </section>
-    <form action="/signup" method="post">
-      <label for="firstName">Nombre completo <span>*</span> </label>
+
+    <form action="/signup" method="post" class="contact-form">
+      <label class="contact-label" for="firstName">Nombre completo <span>*</span> </label>
       <input
         class="contact"
         placeholder="Nombre..."
@@ -51,7 +57,7 @@
         name="firstName"
         required
       />
-      <label for="emailAddress">Email <span>*</span> </label>
+      <label class="contact-label" for="emailAddress">Email <span>*</span> </label>
       <input
         class="contact"
         placeholder="email@mail.com"
@@ -60,7 +66,7 @@
         name="emailAddress"
         required
       />
-      <label for="telephone">Teléfono</label>
+      <label class="contact-label" for="telephone">Teléfono</label>
       <input
         class="contact"
         placeholder="Ej: 123456789"
@@ -68,14 +74,14 @@
         type="tel"
         name="telephone"
       />
-      <label for="message">Mensaje <span>*</span> </label>
+      <label class="contact-label" for="message">Mensaje <span>*</span> </label>
       <textarea
-        class="contact"
+        class="contact contact-area"
         id="message"
         placeholder="¿Qué necesitas?"
         name="message"
         rows="8"
-        cols="80"
+        cols="10"
       ></textarea>
       <input class="submit" type="submit" value="Enviar" />
     </form>
