@@ -25,6 +25,26 @@
   font-size: 18px;
 }
 
+@media (min-width: 1200px) {
+  .slogan {
+    .imgslogan {
+      height: 550px;
+    }
+    .boxslogancontainer {
+      padding: 15px 30px;
+      width: fit-content;
+      margin-left: 168px;
+      transform: translate(0, -100%);
+      opacity: 80%;
+
+      .boxslogan {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
 /*EQUIPO*/
 
 h2::before {

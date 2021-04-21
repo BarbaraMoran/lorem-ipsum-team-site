@@ -55,11 +55,14 @@
 
   .navfooter {
     text-align: right;
-    padding-left: 45px;
+    padding-right: 45px;
   }
 
   .footerlink {
     line-height: 30px;
+    height: 161px;
+    position: relative;
+    padding: 0px;
   }
 
   .imgfooter {
@@ -67,5 +70,31 @@
     padding-top: 60px;
     padding-bottom: 60px;
     margin-left: 45px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .small {
+    order: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 138px;
+  }
+
+  .navfooter {
+    text-align: right;
+    padding-right: 138px;
+
+    .footerlink {
+      line-height: 30px;
+      padding: 0px 5px;
+    }
+  }
+
+  .imgfooter {
+    left: 138px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
