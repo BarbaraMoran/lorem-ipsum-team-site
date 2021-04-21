@@ -151,6 +151,10 @@ h2::before {
   text-align: center;
 }
 
+.fab::after {
+  content: "\2219";
+}
+
 .color {
   /*color de los iconos*/
   color: #099d8d;
@@ -161,11 +165,6 @@ h2::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.dot {
-  font-size: 16px;
-  color: #54585a;
 }
 
 @media all and (min-width: 768px) {
