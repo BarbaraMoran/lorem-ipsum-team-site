@@ -1,3 +1,33 @@
+// HEADER
+
+.navcontact {
+  display: flex;
+  justify-content: center;
+  background-color: #14d9c4;
+  opacity: 90%;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  padding-left: 16px;
+  padding-right: 17px;
+  text-transform: uppercase;
+}
+
+.navlistcontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navmenulinkcontact {
+  color: #ffffff;
+  padding: 5px 5px;
+}
+
+// MAIN
+
 .imgcontact {
   width: 100vw;
   height: 300px;
