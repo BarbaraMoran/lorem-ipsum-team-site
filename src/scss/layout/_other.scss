@@ -64,6 +64,7 @@ h2::before {
   line-height: 24px;
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto;
 }
 
 /*EQUIPO*/
@@ -188,6 +189,11 @@ h2::before {
     margin-bottom: 14px;
   }
 
+  .box1 {
+    width: 678px;
+    margin: auto;
+  }
+
   .team1 {
     padding-bottom: 20px;
   }
@@ -276,6 +282,11 @@ h2::before {
 
   .equipobox {
     padding: 0px 300px 10px;
+  }
+
+  .box1 {
+    width: 601px;
+    margin: auto;
   }
 
   .container {
