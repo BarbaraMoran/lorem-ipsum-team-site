@@ -1,5 +1,27 @@
 // HEADER
 
+.headercontact {
+  position: fixed;
+  width: 100vw;
+}
+
+.teamnamecontact {
+  background-color: #099d8d;
+  height: 60px;
+  opacity: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamnametextcontact {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .navcontact {
   display: flex;
   justify-content: center;
@@ -11,6 +33,13 @@
   padding-left: 16px;
   padding-right: 17px;
   text-transform: uppercase;
+
+  @media all and (min-width: 768px) {
+    background-color: #099d8d;
+    height: 60px;
+    padding-right: 45px;
+    padding-left: 0px;
+  }
 }
 
 .navlistcontact {
@@ -23,7 +52,10 @@
 
 .navmenulinkcontact {
   color: #ffffff;
-  padding: 5px 5px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 3px 3px;
 }
 
 // MAIN
