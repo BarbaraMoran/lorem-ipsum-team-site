@@ -1,4 +1,4 @@
-// HEADER
+// HEADER CONTACT
 
 .headercontact {
   position: fixed;
@@ -92,7 +92,7 @@
   }
 }
 
-// MAIN
+// MAIN CONTACT
 
 .imgcontact {
   width: 100vw;
@@ -174,4 +174,78 @@ span {
   border-radius: 4px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+// FOOTER CONTACT
+
+/*FOOTER*/
+
+.footercontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  border-top: #b8b8b9 1px solid;
+
+  @media all and (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 170px;
+    padding-top: 24px;
+    padding-bottom: 56px;
+    padding-left: 45px;
+    padding-right: 45px;
+    position: relative;
+  }
+}
+
+.smallcontact {
+  color: #b8b8b9;
+  font-size: 14px;
+  line-height: 20px;
+
+  @media all and (min-width: 768px) {
+    order: 1;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+  }
+}
+
+.navfootercontact {
+  list-style: none;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  @media (min-width: 768px) {
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.navfooterlist {
+  line-height: 20px;
+  font-size: 14px;
+  @media (min-width: 768px) {
+    line-height: 30px;
+  }
+}
+
+.footercontactlinks {
+  color: #54585a;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.imgfootercontact {
+  width: 115.9px;
+  height: 45px;
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 65px;
+    left: 45px;
+  }
 }
