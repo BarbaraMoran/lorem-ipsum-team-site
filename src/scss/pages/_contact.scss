@@ -158,7 +158,6 @@ span {
 }
 
 .contact-form {
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,6 +173,7 @@ span {
     padding-left: 299px;
     padding-right: 300px;
     padding-bottom: 120px;
+    align-items: flex-start;
   }
 }
 
@@ -186,6 +186,9 @@ span {
   @media all and (min-width: 768px) {
     width: 442px;
   }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+  }
 }
 
 .contact {
@@ -197,6 +200,15 @@ span {
 
   @media all and (min-width: 768px) {
     width: 442px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+  }
+}
+
+.email-label {
+  @media (min-width: 1200px) {
+    width: 395px;
   }
 }
 
