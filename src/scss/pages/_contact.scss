@@ -214,22 +214,28 @@ span {
 
 .email-display {
   @media all and (min-width: 1200px) {
-    display: inline-block;
     width: 395px;
   }
 }
 
 .telephone-label {
   @media all and (min-width: 1200px) {
-    display: inline-block;
     width: 162px;
   }
 }
 
 .telephone-display {
   @media all and (min-width: 1200px) {
-    display: inline-block;
     width: 162px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrappercontact {
+    display: flex;
+  }
+  .wrappercontact2 {
+    margin-left: 44px;
   }
 }
 
@@ -255,6 +261,7 @@ span {
 
   @media all and (min-width: 1200px) {
     width: 278px;
+    margin-left: 323px;
   }
 }
 
