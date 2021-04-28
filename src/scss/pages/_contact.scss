@@ -116,12 +116,10 @@
   font-weight: 500;
   text-transform: uppercase;
   line-height: 45px;
-  padding-top: 30px;
   padding-bottom: 15px;
 }
 
 .containerform {
-  box-sizing: border-box;
   background-color: #ffffff;
   padding: 30px 15px 58px 15px;
 
@@ -143,7 +141,7 @@
   line-height: 24px;
   text-align: center;
   color: #54585a;
-  padding-bottom: 24px; /*es la altura del line-height*/
+  // padding-bottom: 24px; /*es la altura del line-height*/
 }
 
 span {
@@ -155,8 +153,8 @@ span {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: #54585a;
   line-height: 24px;
-  display: block;
   text-align: center;
+  display: block;
 }
 
 .contact-form {
@@ -197,7 +195,7 @@ span {
 .contact {
   display: block;
   margin-top: 7px;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   width: 290px;
   height: 45px;
 
@@ -229,6 +227,7 @@ span {
 
 .contact-area {
   height: 105px;
+  margin-bottom: 0px;
 }
 
 .submit {
