@@ -8,7 +8,7 @@
     display: flex;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: #099d8d;
+    background-color: #cd5c5c;
     opacity: 95%;
   }
 
@@ -19,7 +19,7 @@
 }
 
 .teamnamecontact {
-  background-color: #099d8d;
+  background-color: #cd5c5c;
   height: 60px;
   opacity: 95%;
   display: flex;
@@ -44,7 +44,7 @@
 .navcontact {
   display: flex;
   justify-content: center;
-  background-color: #14d9c4;
+  background-color: #f08080;
   opacity: 90%;
   width: 100%;
   height: 45px;
@@ -54,7 +54,7 @@
   text-transform: uppercase;
 
   @media all and (min-width: 768px) {
-    background-color: #099d8d;
+    background-color: #cd5c5c;
     height: 60px;
     padding-right: 0px;
     padding-left: 0px;
@@ -110,8 +110,8 @@
 
 .title {
   font-size: 24px;
-  font-family: "Rubik";
-  color: #099d8d;
+  font-family: "Fredoka One", cursive;
+  color: #cd5c5c;
   text-align: center;
   font-weight: 500;
   text-transform: uppercase;
@@ -145,7 +145,7 @@
 }
 
 span {
-  color: #14d9c4;
+  color: #cd5c5c;
 }
 
 .field {
@@ -244,7 +244,7 @@ span {
 }
 
 .submit {
-  background-color: #099d8d;
+  background-color: #cd5c5c;
   width: 290px;
   height: 45px;
   margin-top: 30px;
