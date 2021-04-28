@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,51 +21,68 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
 
-    <title>Contact</title>
+    <title>Contacto</title>
   </head>
 
   <body>
-    <header class="header">
-      <div class="teamname">
-        <h1 class="teamname text">lorem ipsum</h1>
+    <header class="headercontact">
+      <div class="teamnamecontact">
+        <h1 class="teamnametextcontact">lorem ipsum</h1>
       </div>
 
-      <nav class="navmenu">
-        <ul class="navlist">
+      <nav class="navcontact">
+        <ul class="navlistcontact">
           <li>
-            <a class="navmenulink" href="./index.html#gotoequipo">equipo</a>
+            <a
+              class="navmenulinkcontact contact1"
+              href="./index.html#gotoequipo"
+              title="Equipo"
+              >equipo</a
+            >
           </li>
           <li>
-            <a class="navmenulink" href="./index.html#gotoquienessomos"
+            <a
+              class="navmenulinkcontact contact2"
+              href="./index.html#gotoquienessomos"
+              title="Quiénes somos"
               >quiénes somos</a
             >
           </li>
-          <li><a class="navmenulink" href="./contact.html">contacto</a></li>
+          <li>
+            <a class="navmenulinkcontact" href="./contact.html" title="Contacto"
+              >contacto</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="main-contact">
+      <section class="imgsectionfooter">
         <img
-          src="./assets/images/contact.jpg"
-          alt="imagen de contacto"
+          src="./assets/images/contactpic.jpg"
+          alt="Imagen de contacto"
           class="imgcontact"
+          title="Imagen de contacto"
         />
       </section>
 
-      <h1 class="title">contacto</h1>
       <section class="containerform">
+        <h1 class="title">contacto</h1>
         <p class="reachout">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum
-          animi ea nam recusandae corporis labore.
+          Contacta con nosotras y cuéntanos tu proyecto. ¡Estaremos encantadas
+          de ayudarte!
         </p>
         <small class="field"
           >Todos los campos marcados con <span>*</span> son obligatorios.</small
         >
       </section>
 
-      <form action="/signup" method="post" class="contact-form">
+      <form
+        action="https://formspree.io/f/xdoyakbv"
+        method="post"
+        class="contact-form"
+      >
         <label class="contact-label" for="firstName"
           >Nombre completo <span>*</span>
         </label>
@@ -77,25 +94,33 @@
           name="firstName"
           required
         />
-        <label class="contact-label" for="emailAddress"
-          >Email <span>*</span>
-        </label>
-        <input
-          class="contact"
-          placeholder="email@mail.com"
-          id="emailAddress"
-          type="text"
-          name="emailAddress"
-          required
-        />
-        <label class="contact-label" for="telephone">Teléfono</label>
-        <input
-          class="contact"
-          placeholder="Ej: 123456789"
-          id="telephone"
-          type="tel"
-          name="telephone"
-        />
+        <div class="wrappercontact">
+          <div class="wrappercontact1">
+            <label class="contact-label email-label" for="emailAddress"
+              >Email <span>*</span>
+            </label>
+            <input
+              class="contact email-display"
+              placeholder="email@mail.com"
+              id="emailAddress"
+              type="text"
+              name="emailAddress"
+              required
+            />
+          </div>
+          <div class="wrappercontact2">
+            <label class="contact-label telephone-label" for="telephone"
+              >Teléfono</label
+            >
+            <input
+              class="contact telephone-display"
+              placeholder="Ej: 123456789"
+              id="telephone"
+              type="tel"
+              name="telephone"
+            />
+          </div>
+        </div>
         <label class="contact-label" for="message"
           >Mensaje <span>*</span>
         </label>
@@ -111,25 +136,40 @@
       </form>
     </main>
 
-    <footer class="footer">
-      <small class="small">Nombre del grupo &copy; 2021</small>
-      <nav>
-        <ul class="navfooter">
-          <li>
-            <a class="footerlink" href="./index.html#gotoequipo">equipo</a>
+    <footer class="footercontact">
+      <small class="smallcontact">Lorem Ipsum &copy; 2021</small>
+
+      <nav class="navfootercontact">
+        <ul class="test">
+          <li class="navfooterlist">
+            <a
+              class="footercontactlinks"
+              href="./index.html#gotoequipo"
+              title="Equipo"
+              >equipo</a
+            >
           </li>
-          <li>
-            <a class="footerlink" href="./index.html#quienessomos"
+          <li class="navfooterlist">
+            <a
+              class="footercontactlinks"
+              href="./index.html#gotoquienessomos"
+              title="Quiénes somos"
               >quiénes somos</a
             >
           </li>
-          <li><a class="footerlink" href="./contact.html">contacto</a></li>
+          <li class="navfooterlist">
+            <a class="footercontactlinks" href="./contact.html" title="Contacto"
+              >contacto</a
+            >
+          </li>
         </ul>
       </nav>
+
       <img
-        class="imgfooter"
+        class="imgfootercontact"
         src="./assets/images/logo-adalab.png"
-        alt="logo adalab"
+        alt="Logo de Adalab"
+        title="Adalab"
       />
     </footer>
   </body>
