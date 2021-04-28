@@ -149,11 +149,16 @@ h2::before {
 .social {
   padding-top: 15px;
   padding-bottom: 45px;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .fab::after {
   content: "\2219";
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .color {
