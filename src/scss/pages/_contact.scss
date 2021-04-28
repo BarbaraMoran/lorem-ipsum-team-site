@@ -94,8 +94,18 @@
 
 // MAIN CONTACT
 
-.imgcontact {
+.imgsectionfooter {
   width: 100vw;
+  height: 300px;
+  @media (min-width: 1200px) {
+    height: 400px;
+  }
+}
+
+.imgcontact {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .title {
